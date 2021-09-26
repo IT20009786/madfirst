@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kamuko">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoreMeal">
+        <activity
+            android:name="com.example.kamuko.map"
+            android:exported="true"
+            android:label="@string/title_activity_map"
+            android:theme="@style/Theme.MoreMeal.NoActionBar" />
+        <activity android:name="com.example.kamuko.UpdateItemActivity" />
+        <activity android:name="com.example.kamuko.CartViewActivity" />
+        <activity android:name="com.example.kamuko.AfterCartActivity" />
+        <activity android:name="com.example.kamuko.AddToCartActivity" />
+        <activity android:name="com.example.kamuko.OffersDetailActivityForUser" />
+        <activity android:name="com.example.kamuko.DetailActivityForUser" />
+        <activity android:name="com.example.kamuko.OffersActivityForUser" />
+        <activity android:name=".OffersActivityForOffers" />
+        <activity android:name="com.example.kamuko.MainActivityForUser" />
+        <activity android:name="com.example.kamuko.UploadOffersActivity" />
+        <activity android:name="com.example.kamuko.OffersDetailActivity" />
+        <activity android:name="com.example.kamuko.OffersActivity" />
+        <activity android:name="com.example.kamuko.Insert" />
+        <activity android:name="com.example.kamuko.FeedbackView" />
+        <activity android:name="com.example.kamuko.AdminPanel" />
+        <activity android:name="com.example.kamuko.AddRiderTable" />
+        <activity android:name="com.example.kamuko.AddRiders" />
+        <activity android:name="com.example.kamuko.Success" />
+        <activity android:name="com.example.kamuko.Signup_form" />
+        <activity android:name="com.example.kamuko.Signed_In_Profile" />
+        <activity android:name="com.example.kamuko.Second_Launch" />
+        <activity android:name="com.example.kamuko.Login_form" />
+        <activity android:name="com.example.kamuko.DetailActivity" />
+        <activity android:name="com.example.kamuko.UploadActivity" />
+        <activity android:name="com.example.kamuko.MainActivity" />
+        <activity android:name="com.example.kamuko.First_Launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
